@@ -59,11 +59,48 @@ Grading
 
 Your grade will be determined as a weighted average:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Homework | 40% |
-| Quizzes | 50% |
-| Class participation | 10% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quizzes
+{{< tdclose >}}
+{{< tdopen >}}
+50%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Class participation
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Obligatory Policy Statement
 ---------------------------
@@ -80,42 +117,619 @@ Calendar
 
 The calendar below provides information on the course's lecture (L) and recitation (R) sessions.
 
-| SES # | TOPICS | KEY DATES |
-| --- | --- | --- |
-| L1 | {{< h 3 >}}Introduction{{< /h >}} {{< br >}}{{< br >}} Overview of subjects to be covered during the term; basic math concepts; notation; vocabulary. Representation of systems {{< br >}}{{< br >}}  | Problem set 1 out |
-| R1 | Sinusoids and complex exponentials | &nbsp; |
-| L2 | {{< h 3 >}}Sinusoids{{< /h >}} {{< br >}}{{< br >}} Complex exponentials {{< br >}}{{< br >}}  | &nbsp; |
-| L3 | {{< h 3 >}}Spectra{{< /h >}} {{< br >}}{{< br >}} Spectrum plots, AM {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Problem set 1 due {{< br >}}{{< br >}} Problem set 2 out {{< br >}}{{< br >}}  |
-| R2 | Periodic waveforms, Fourier series | &nbsp; |
-| L4 | {{< h 3 >}}Periodic waveforms{{< /h >}} {{< br >}}{{< br >}} Fourier series, frequency modulation (FM) {{< br >}}{{< br >}}  | &nbsp; |
-| L5 | {{< h 3 >}}Basis functions and orthogonality{{< /h >}} {{< br >}}{{< br >}} Definition of orthogonality; Walsh functions and other basis sets; discrete Fourier basis matrix {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Problem set 2 due {{< br >}}{{< br >}} Problem set 3 out {{< br >}}{{< br >}}  |
-| R3 | Periodicity | &nbsp; |
-| L6 | {{< h 3 >}}Sampling I{{< /h >}} {{< br >}}{{< br >}} Sampling theorem, aliasing {{< br >}}{{< br >}}  | &nbsp; |
-| R4 | Periodicity, spectrum of a periodic functions, basis functions, D-to-C conversion | &nbsp; |
-| L7 | {{< h 3 >}}Sampling II{{< /h >}} {{< br >}}{{< br >}} Reconstruction {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Problem set 3 due {{< br >}}{{< br >}} Problem set 4 out {{< br >}}{{< br >}}  |
-| L8 | {{< h 3 >}}Psychophysics, psychoacoustics, and other physiological signals{{< /h >}} | &nbsp; |
-| R5 | C-to-D conversion, folding, aliasing, resampling, unsharp mask, psychoacoustics | &nbsp; |
-| R6 | Introduction to information theory, Markov processes, entropy coding | &nbsp; |
-| L9 | {{< h 3 >}}Communication theory I{{< /h >}} {{< br >}}{{< br >}} Ergodic processes/Markov models; choice, uncertainty and entropy; Shannon's fundamental theorem for a noiseless channel; entropy coding {{< br >}}{{< br >}}  | &nbsp; |
-| L10 | {{< h 3 >}}Communication theory II{{< /h >}} {{< br >}}{{< br >}} Discrete channels with noise; continuous channels; error detection and correction {{< br >}}{{< br >}}  | &nbsp; |
-| R7 | Noisy channels, repeat rodes, Hamming code error correction | &nbsp; |
-| L11 | {{< h 3 >}}Pre-quiz wrap-up{{< /h >}} | Problem set 4 due |
-| L12 | Quiz 1 | &nbsp; |
-| {{< td-colspan 4 >}}**End of MAS.510; start of MAS.511**{{< /td-colspan >}} ||||
-| L13 | {{< h 3 >}}Discrete-time systems I{{< /h >}} {{< br >}}{{< br >}} FIR filters. Impulse response. Convolution {{< br >}}{{< br >}}  | Problem set 5 out |
-| L14 | {{< h 3 >}}Discrete-time systems II{{< /h >}} {{< br >}}{{< br >}} Implementations of general LTI systems {{< br >}}{{< br >}}  | &nbsp; |
-| R8 |  {{< br >}}{{< br >}} Quiz review {{< br >}}{{< br >}} FIR filters, impulse response, convolution, block diagrams {{< br >}}{{< br >}}  | &nbsp; |
-| L15 | {{< h 3 >}}Frequency response I{{< /h >}} {{< br >}}{{< br >}} Response of FIR systems; properties {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Problem set 5 due {{< br >}}{{< br >}} Problem set 6 out {{< br >}}{{< br >}}  |
-| L16 | {{< h 3 >}}Frequency response II{{< /h >}} | &nbsp; |
-| R9 | FIR filters, impulse response, convolution review, frequency response | &nbsp; |
-| L17 | {{< h 3 >}}Z-transform, I{{< /h >}} {{< br >}}{{< br >}} Definitions; convolution and the Z-transform; poles and zeros {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Problem set 6 due {{< br >}}{{< br >}} Problem set 7 out {{< br >}}{{< br >}}  |
-| R10 | Frequency response, system response, Z-transform | &nbsp; |
-| L18 | {{< h 3 >}}IIR systems{{< /h >}} {{< br >}}{{< br >}} Definitions; impulse response and frequency response {{< br >}}{{< br >}}  | &nbsp; |
-| L19 | {{< h 3 >}}Z-transforms II{{< /h >}} {{< br >}}{{< br >}} Inverse Z-transform; stability; partial fraction expansion {{< br >}}{{< br >}}  | Problem set 7 due |
-| L20 | {{< h 3 >}}Spectrum analysis I{{< /h >}} {{< br >}}{{< br >}} The DFT; fast algorithms {{< br >}}{{< br >}}  | Problem set 8 out |
-| R11 | Inverse Z-transform, zeros, partial fraction expansion, long division, DFT, FFT | &nbsp; |
-| L21 | {{< h 3 >}}Spectrum analysis II{{< /h >}} {{< br >}}{{< br >}} The DTFT {{< br >}}{{< br >}}  | &nbsp; |
-| L22 | {{< h 3 >}}Practical filter design{{< /h >}} | &nbsp; |
-| R12 | Phase, equivalent system representation, filter design, windows, and cepstrum analysis | &nbsp; |
-| L23 | {{< h 3 >}}Pre-quiz wrap-up and practical communication systems{{< /h >}} {{< br >}}{{< br >}} Real-world modulation and demodulation methods; spread-spectrum {{< br >}}{{< br >}}  | Problem set 8 due |
-| L24 | Quiz 2 |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+KEY DATES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Introduction
+
+Overview of subjects to be covered during the term; basic math concepts; notation; vocabulary. Representation of systems
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R1
+{{< tdclose >}}
+{{< tdopen >}}
+Sinusoids and complex exponentials
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Sinusoids
+
+Complex exponentials
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Spectra
+
+Spectrum plots, AM
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem set 1 due
+
+Problem set 2 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R2
+{{< tdclose >}}
+{{< tdopen >}}
+Periodic waveforms, Fourier series
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Periodic waveforms
+
+Fourier series, frequency modulation (FM)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Basis functions and orthogonality
+
+Definition of orthogonality; Walsh functions and other basis sets; discrete Fourier basis matrix
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem set 2 due
+
+Problem set 3 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R3
+{{< tdclose >}}
+{{< tdopen >}}
+Periodicity
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Sampling I
+
+Sampling theorem, aliasing
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4
+{{< tdclose >}}
+{{< tdopen >}}
+Periodicity, spectrum of a periodic functions, basis functions, D-to-C conversion
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Sampling II
+
+Reconstruction
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem set 3 due
+
+Problem set 4 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Psychophysics, psychoacoustics, and other physiological signals
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R5
+{{< tdclose >}}
+{{< tdopen >}}
+C-to-D conversion, folding, aliasing, resampling, unsharp mask, psychoacoustics
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R6
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to information theory, Markov processes, entropy coding
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Communication theory I
+
+Ergodic processes/Markov models; choice, uncertainty and entropy; Shannon's fundamental theorem for a noiseless channel; entropy coding
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Communication theory II
+
+Discrete channels with noise; continuous channels; error detection and correction
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R7
+{{< tdclose >}}
+{{< tdopen >}}
+Noisy channels, repeat rodes, Hamming code error correction
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Pre-quiz wrap-up
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**End of MAS.510; start of MAS.511**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Discrete-time systems I
+
+FIR filters. Impulse response. Convolution
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 5 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Discrete-time systems II
+
+Implementations of general LTI systems
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Quiz review
+
+FIR filters, impulse response, convolution, block diagrams
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Frequency response I
+
+Response of FIR systems; properties
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem set 5 due
+
+Problem set 6 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Frequency response II
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R9
+{{< tdclose >}}
+{{< tdopen >}}
+FIR filters, impulse response, convolution review, frequency response
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Z-transform, I
+
+Definitions; convolution and the Z-transform; poles and zeros
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem set 6 due
+
+Problem set 7 out
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R10
+{{< tdclose >}}
+{{< tdopen >}}
+Frequency response, system response, Z-transform
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### IIR systems
+
+Definitions; impulse response and frequency response
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L19
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Z-transforms II
+
+Inverse Z-transform; stability; partial fraction expansion
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 7 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L20
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Spectrum analysis I
+
+The DFT; fast algorithms
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 8 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R11
+{{< tdclose >}}
+{{< tdopen >}}
+Inverse Z-transform, zeros, partial fraction expansion, long division, DFT, FFT
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L21
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Spectrum analysis II
+
+The DTFT
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L22
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Practical filter design
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R12
+{{< tdclose >}}
+{{< tdopen >}}
+Phase, equivalent system representation, filter design, windows, and cepstrum analysis
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L23
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Pre-quiz wrap-up and practical communication systems
+
+Real-world modulation and demodulation methods; spread-spectrum
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Problem set 8 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L24
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

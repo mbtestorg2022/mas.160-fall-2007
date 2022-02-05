@@ -10,7 +10,7 @@ image_metadata:
   caption: This course explores the mathematical foundations of digital media. For
     instance, see [recitations](pages/recitations) 6 and 7 for an explanation of MP3
     compression using the phrase "How much wood can a woodchuck chuck?" ([iPod photo](http://www.flickr.com/photos/gum-/2079691255/)
-    courtesy of >> GUM <<.)
+    courtesy of >> GUM \<\<.)
   credit: ''
   image-alt: Diagram of Huffman Coding for phrase 'How much wood can a woodchuck chuck?'
     overlaid on photo of various iPods.
